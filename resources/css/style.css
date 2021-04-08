@@ -1,10 +1,10 @@
 /* CSS Reset */
+/*
 * {
     margin: 0;
     padding: 0;
     font-size: 100%;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
 header,
@@ -15,5 +15,44 @@ article,
 footer {
   display: block;
 }
+*/
 
+body {
+  background-color: black;
+  text-align: center;
+}
 
+h1 {
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  font-family: Verdana;
+  font-weight: 300;
+  font-size: 42px;
+  color: white;
+}
+
+a {
+  font-family: Verdana;
+  font-size: 16px;
+  text-align: center;
+  color: Aquamarine;
+}
+
+p {
+  font-family: Verdana;
+  font-size: 21px;
+  color: gray;
+}
+
+#copyright {
+  text-align: right;
+}
+
+img {
+  padding: 10px;
+}
